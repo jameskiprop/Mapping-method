@@ -3,8 +3,8 @@ function sayHi(name) {
   console.log(`Hello,` + name);
 }
 //defining the function that accepts a callback
-function greetUser(callback) {
+function greetuser(callback) {
   const name = `Kiprop`;
   callback(name);
 }
-greetUser(sayHi);
+greetuser(sayHi);
